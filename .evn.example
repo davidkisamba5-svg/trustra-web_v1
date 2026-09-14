@@ -1,0 +1,40 @@
+# Database
+DATABASE_URL=postgresql://trustra_user:CHANGE_ME@localhost:5432/trustra_db
+DB_BACKUP_PATH=/backups
+
+# Redis
+REDIS_URL=redis://localhost:6379/0
+
+# Security
+SECRET_KEY=your-secret-key-here-change-in-production
+ENCRYPTION_KEY=your-encryption-key-here
+JWT_SECRET=your-jwt-secret-here
+JWT_ALGORITHM=HS256
+JWT_EXPIRATION_HOURS=24
+
+# Broker Integrations
+CTRADER_CLIENT_ID=your_ctrader_client_id
+CTRADER_CLIENT_SECRET=your_ctrader_secret
+CTRADER_REDIRECT_URI=http://localhost:8000/auth/ctrader/callback
+
+BINANCE_API_KEY=your_binance_api_key
+BINANCE_API_SECRET=your_binance_api_secret
+
+# Email (optional)
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=your_email@gmail.com
+SMTP_PASSWORD=your_app_password
+
+# Application
+ENVIRONMENT=development
+DEBUG=true
+ALLOWED_HOSTS=localhost,127.0.0.1
+FRONTEND_URL=http://localhost:3000
+
+# Logging
+LOG_LEVEL=INFO
+
+# Celery (for background tasks)
+CELERY_BROKER_URL=redis://localhost:6379/1
+CELERY_RESULT_BACKEND=redis://localhost:6379/2
