@@ -1,4 +1,4 @@
-# TRUSTRA 2.0 - Algorithmic Trading Platform
+# TRUSTRA 1.0 - Algorithmic Trading Platform
 
 A production-grade algorithmic trading platform with real broker integration, professional bot algorithms, and enterprise-level security.
 
